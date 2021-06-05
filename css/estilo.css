@@ -34,3 +34,64 @@ nav li .img {
     height: 30px;
     width: 30px;
 }
+
+main {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.main-logo {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 272px;
+    height: 92px;
+}
+
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+ main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid rgb(170, 161, 161);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 11px 0 #4bbedb47;
+    
+}
+
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #68729147;
+}
+
+main .main-input .search-icon {
+    background-image: url('https://images.vexels.com/media/users/3/143356/isolated/preview/64e14fe0195557e3f18ea3becba3169b-buscar-lupa-by-vexels.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+
+}
+
+main .main-input .micro-icon {
+    background-image: url('https://www.iconpacks.net/icons/1/free-microphone-icon-342-thumb.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
