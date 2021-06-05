@@ -16,7 +16,21 @@ header nav {
     justify-content: flex-end;
 }
 header nav .nav-right-section {
-        width: 250px;
+        width: 150px;
         display: flex;
         list-style: none;
+        justify-content: space-between;
+        align-items: center;
+        height: 20px;        
+}
+
+li {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav li .img {
+    margin-top: 4px;
+    height: 30px;
+    width: 30px;
 }
